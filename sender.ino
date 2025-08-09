@@ -16,7 +16,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 #define BATTERY_PIN 35
 
 // Receiver MAC address (example)
-uint8_t receiverMAC[] = {0x44, 0x1D, 0x64, 0xF3, 0x8E, 0x14};
+uint8_t receiverMAC[] = {0xEC, 0xE3, 0x34, 0x1B, 0x60, 0xA8};
 
 // Structure for sending data
 typedef struct struct_message {
